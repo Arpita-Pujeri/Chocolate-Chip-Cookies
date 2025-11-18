@@ -1,0 +1,86 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.586);
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.recipe-info span {
+    margin-right: 15px;
+    color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    border-left: 4px solid orangered;
+    padding-left: 10px;
+}
+
+.ingredients li{
+    margin-bottom: 8px;
+    border-bottom: 1px solid gray;
+
+}
+
+.instructions li {
+    margin-bottom: 8px;
+    line-height:3vh;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: lightcoral;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.highlight {
+    background: yellow;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.tip {
+    background: lightskyblue;
+    border-left: 4px solid blue;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .badge {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
